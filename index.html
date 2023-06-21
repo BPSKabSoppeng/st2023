@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Selection</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://apis.google.com/js/api.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h2>User Selection</h2>
+    <form>
+      <label for="name">Name:</label>
+      <select id="name"></select>
+      
+      <label for="kecamatan">Kecamatan:</label>
+      <select id="kecamatan">
+        
+      </select>
+      
+      <button type="button" id="submitButton" onclick="submitSelection()">Submit</button>
+
+
+    </form>
+    
+    <div id="result"></div>
+  </div>
+  <div id="cardsContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
